@@ -5,7 +5,7 @@ Example Selenium 2 WebDriver scripts using JavaScript.
 
 ## Usage
  - npm install selenium-webdriver
- - npm install chromedriver (Set .exe file to your PATH (usr/local/bin))
+ - npm install chromedriver (Set .exe file to your PATH usr/local/bin)
 
 ## Download
  - (Selenium) http://www.seleniumhq.org/download/
