@@ -8,8 +8,8 @@ Example Selenium 2 WebDriver scripts using JavaScript.
  - npm install chromedriver
 
 ## Download
- - (Selenium) - http://www.seleniumhq.org/download/
- - (ChromeDriver) - https://sites.google.com/a/chromium.org/chromedriver/downloads
+ - (Selenium) http://www.seleniumhq.org/download/
+ - (ChromeDriver) https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 ## Documentation
  - http://www.seleniumhq.org/docs/
