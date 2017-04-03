@@ -1,5 +1,5 @@
 # Selenium
-Example Selenium@2 WebDriver scripts with JavaScript!
+Example Selenium 2 WebDriver scripts using JavaScript.
 
 ![](https://image.ibb.co/iF2u0a/ladybug.jpg)
 
