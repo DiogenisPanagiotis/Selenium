@@ -1,7 +1,7 @@
 const webdriver = require('selenium-webdriver');
 const driver = new webdriver.Builder() // build WebDriver
-    .forBrowser('chrome') // for Chrome
-    .build();
+     .forBrowser('chrome') // for Chrome
+     .build();
 
 driver.get('http://www.google.com'); // fetch url
 
