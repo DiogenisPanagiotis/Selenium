@@ -7,7 +7,7 @@ const browser = new webdriver.Builder() // build WebDriver
 
 function logTitle() {
   browser.getTitle().then((title) => {
-    console.log('Current Page Title: ' + title);
+    console.log(`Page title is: ${title}`);
   });
 }
 
@@ -16,12 +16,13 @@ function clickLink(link) {
 }
 
 function handleError(err) {
-  console.error('Something went wrong\n', err.stack, '\n');
+  console.error(`Something went wrong:
+  ${err.stack}`);
   closeBrowser();
 }
 
 function fetchLink() {
-  return browser.findElements(webdriver.By.css('[href="http://www.iacapps.com/"]')).then((result) => {
+  return browser.findElements(webdriver.By.css('[href="htt://www.iacapps.com/"]')).then((result) => {
     return result[0];
   });
 }
