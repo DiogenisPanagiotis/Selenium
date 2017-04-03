@@ -22,7 +22,7 @@ function handleError(err) {
 }
 
 function fetchLink() {
-  return browser.findElements(webdriver.By.css('[href="htt://www.iacapps.com/"]')).then((result) => {
+  return browser.findElements(webdriver.By.css('[href="http://www.iacapps.com/"]')).then((result) => {
     return result[0];
   });
 }
